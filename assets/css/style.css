@@ -1,0 +1,10 @@
+button,
+div,
+form,
+input {
+  margin: 10px;
+}
+.imgHolder {
+  background-color: #ebebeb;
+  margin: 20px;
+}

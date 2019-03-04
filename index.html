@@ -4,17 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Trivia Game</title>
+    <title>Giftastic</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    
-</body>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <div class="container">
+        <div id="instructions" class="card">
+            <div class="card-body">
+                <h5 class="card-title">Giftastic</h5>
+                <h5 class="card-subtitle mb-2 text-muted">Magic Picture Buttons</h5>
+                <p class="card-text">When you first enter, please notice the buttons across the top.  These have been pre-loaded for you to use.  When you click on one of the buttons, ten images related to the button text will display.  When the images initially display, they will be still, not moving.  When you click on an image, animation will begin and will animate until you click on it again.  Please be patient when clicking, as the image does not always respond immediately.  If you find the list no longer interesting, you can add more by typing new things and clicking on the button you made.  Have fun.
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="button-view"></div>
+            </div>
+        </div>
+        <div class="row">
+           <div class="col-md-12">
+                 <form class="form-inline">
+                    <div class="form-group mx-sm-3 mb-2">
+                      <label for="input-topic">Topic</label>
+                      <input type="text" class="form-control" id="input-topic" placeholder="Topic">
+                    </div>
+                    <button type="submit" class="btn btn-info" id="add-topic">Add Your Topic Button</button>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div id="results"></div>
+        </div>
+ 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    <script src="assets/javascript/app.js"></script>
+    </div>
+   
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="assets/js/app.js"></script>
+
+
 </html>
