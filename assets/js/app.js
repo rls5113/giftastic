@@ -6,7 +6,7 @@
         var limit = 10;
         var qryURL = "https://api.giphy.com/v1/gifs/search?q="+param1+"&limit="+limit+"&api_key=snZzpnPXDcEYSih2lIqPeVtaVN2q1kYo";
 
-        // console.log(qryURL);
+        console.log(qryURL);
         
         $.ajax({
             url: qryURL,
